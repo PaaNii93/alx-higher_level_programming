@@ -1,5 +1,4 @@
-#ifndef LIST_H
-#define LIST_H
+#include "list.h"
 
 /**
  * check_cycle - checks if a linked list contains a cycle
@@ -25,4 +24,3 @@ int check_cycle(listint_t *list)
 
 	return (0);
 }
-#endif
